@@ -1,0 +1,24 @@
+{
+  "name": "discord-bot-starter",
+  "version": "1.0.0",
+  "description": "A TypeScript Discord.JS bot template.",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DamienVesper/DiscordBotStarter.git"
+  },
+  "keywords": [
+    "discord-bot",
+    "discordjs",
+    "nodejs"
+  ],
+  "author": "DamienVesper",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/DamienVesper/DiscordBotStarter/issues"
+  },
+  "homepage": "https://github.com/DamienVesper/DiscordBotStarter#readme"
+}
