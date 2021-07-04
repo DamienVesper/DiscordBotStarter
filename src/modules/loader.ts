@@ -28,8 +28,8 @@ const loadCommands = async (client: Client) => {
         client.commands.set(fileName, {
             config: {
                 desc: command.cmd.desc,
-                usage: command.cmd.usage || ``,
-                aliases: command.cmd.aliases || []
+                usage: command.cmd.usage || null,
+                aliases: command.cmd.aliases || null
             },
             run: command.run
         });
