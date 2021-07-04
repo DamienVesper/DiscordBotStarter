@@ -20,7 +20,6 @@ process.on(`uncaughtException`, e => log(`red`, e.stack));
 
 /**
  * Start up the bot.
- * @author DamienVesper
  */
 const startBot = async () => {
     logExtra.logSplash();
