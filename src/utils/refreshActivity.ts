@@ -10,7 +10,7 @@ const refreshActivity = async (client: Client) => {
 
     await client.user.setPresence({
         activity: {
-            name: `${client.users.cache.size} players on Torn.Space`,
+            name: `${client.users.cache.size} users`,
             type: `WATCHING`
         },
 
