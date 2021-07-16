@@ -1,4 +1,4 @@
-import * as Discord from 'discord.js';
+import * as Discord from 'discord.js-light';
 import mongoose from 'mongoose';
 
 import { Client } from './types/discord';
@@ -12,7 +12,12 @@ dotenv.config();
 
 const client: Client = new Discord.Client({
     disableMentions: `everyone`,
-    fetchAllMembers: true
+    cacheGuilds: true,
+    cacheChannels: false,
+    cacheOverwrites: false,
+    cacheRoles: false,
+    cacheEmojis: false,
+    cachePresences: false
 });
 
 // Uncaught exception handler.
