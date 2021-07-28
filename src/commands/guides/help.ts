@@ -32,7 +32,7 @@ const run = async (client: Client, message: Discord.Message, args: string[]) => 
 
     const commandName = args[0].toLowerCase();
     const command = client.commands.get(commandName) ||
-        client.commands.get([...client.commands.keys()][[...client.commands.values()].indexOf([...client.commands.values()].find(cmd => cmd.config.aliases.includes(commandName)))]);
+        client.commands.get([...client.commands.keys()][[...client.commands.values()].indexOf([...client.commands.values()].find(cmd => cmd.config.aliases?.includes(commandName)))]);
 
     if (!command) return message.channel.send(`${m} That is not a valid command!`);
 
