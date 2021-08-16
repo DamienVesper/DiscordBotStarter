@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "bufferutil": "^4.0.3",
-    "discord.js-light": "^3.5.11",
+    "discord.js-light": "^4.1.1",
     "erlpack": "discord/erlpack",
     "mongoose": "^5.13.7",
     "utf-8-validate": "^5.0.5",
