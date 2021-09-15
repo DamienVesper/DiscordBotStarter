@@ -41,7 +41,7 @@
     "bufferutil": "^4.0.3",
     "discord.js-light": "^3.5.11",
     "erlpack": "discord/erlpack",
-    "mongoose": "^5.13.7",
+    "mongoose": "^6.0.6",
     "utf-8-validate": "^5.0.5",
     "zlib-sync": "^0.1.7"
   }
