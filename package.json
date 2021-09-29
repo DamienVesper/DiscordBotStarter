@@ -26,8 +26,8 @@
   "homepage": "https://github.com/DamienVesper/DiscordBotStarter#readme",
   "devDependencies": {
     "@types/node": "^16.10.1",
-    "@typescript-eslint/eslint-plugin": "^4.30.0",
-    "@typescript-eslint/parser": "^4.30.0",
+    "@typescript-eslint/eslint-plugin": "^4.32.0",
+    "@typescript-eslint/parser": "^4.32.0",
     "dotenv": "^10.0.0",
     "eslint": "^7.32.0",
     "eslint-config-standard": "^16.0.3",
@@ -38,11 +38,11 @@
     "typescript": "^4.4.2"
   },
   "dependencies": {
-    "bufferutil": "^4.0.3",
+    "bufferutil": "^4.0.4",
     "discord.js-light": "^3.5.11",
     "erlpack": "discord/erlpack",
     "mongoose": "^5.13.7",
-    "utf-8-validate": "^5.0.5",
+    "utf-8-validate": "^5.0.6",
     "zlib-sync": "^0.1.7"
   }
 }
